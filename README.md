@@ -8,4 +8,5 @@
     * il nome della squadra ospite (Es: Norwich City FC)
 - __Il percorso relativo del file.csv per IDE Eclipse:__
     * ".\\league2020.csv"
-    * per IntelliJ IDEA vedi il ramo 'IntelliJ IDEA'
+- __Il percorso relativo del file.csv per IDE IntelliJ IDEA:__
+    * ".\\Campionato\\league2020.csv"(usare il ramo 'IntelliJIDEA' oppure cambiare il percorso manualmente)
