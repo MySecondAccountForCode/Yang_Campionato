@@ -6,7 +6,5 @@
     * il nome della squadra casa (Es: Liverpool FC)
     * il punteggio (Es: 0-3)
     * il nome della squadra ospite (Es: Norwich City FC)
-- __Il percorso relativo del file.csv per IDE Eclipse:__
-    * ".\\league2020.csv"
-- __Il percorso relativo del file.csv per IDE IntelliJ IDEA:__
-    * ".\\Campionato\\league2020.csv"(usare il ramo 'IntelliJIDEA' oppure cambiare il percorso manualmente)
+- __Il percorso relativo del file.csv in IntelliJ IDEA:__
+    * ".\\Campionato\\league2020.csv".
