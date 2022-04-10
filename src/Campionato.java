@@ -74,7 +74,9 @@ public class Campionato {
             reader.readLine(); // salta la prima riga
             String line;
             while ((line = reader.readLine()) != null) {
-                Partita p = new Partita(line, ",");
+                String[] dati = line.split(",");
+                Partita p = new Partita(Integer.parseInt(dati[0]), dati[1], dati[2], dati[3], dati[4]);
+
                 if (!partite_giornate.containsKey(p.getGiornata()))
                     partite_giornate.put(p.getGiornata(), new LinkedList<>());
                 if (!partite_squadre.containsKey(p.getSquadra_casa()))
