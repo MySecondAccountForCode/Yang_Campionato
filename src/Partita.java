@@ -27,24 +27,6 @@ public class Partita {
         this.squadra_ospite = squadra_ospite;
     }
 
-    // costruttore per la lettura del file
-
-    /**
-     * costruttore utilizzato per inizializzare una Partita con una riga di testo di un file.csv
-     *
-     * @param line riga di testo passato da un file.csv
-     * @param del  delimitatore del file.csv
-     */
-    public Partita(String line, String del) {
-        String[] dati = line.split(del);
-
-        giornata = Integer.parseInt(dati[0]);
-        data = dati[1];
-        squadra_casa = dati[2];
-        punteggio = makePunteggio(dati[3], "-");
-        squadra_ospite = dati[4];
-    }
-
     /**
      * metodo privato che serve per inizializzare l'attributo punteggio
      *
