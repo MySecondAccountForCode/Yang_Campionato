@@ -34,7 +34,7 @@ public class Campionato {
      * costruttore predefinito
      */
     public Campionato() {
-        this("Premier League", "2020", ".\\Campionato\\league2020.csv");
+        this("Premier League", "2020", ".\\league2020.csv");
     }
 
     /**
@@ -44,7 +44,7 @@ public class Campionato {
      * @param stagione la stagione del campionato
      */
     public Campionato(String serie, String stagione) {
-        this(serie, stagione, ".\\Campionato\\league2020.csv");
+        this(serie, stagione, ".\\league2020.csv");
     }
 
     /**
