@@ -35,7 +35,7 @@ public class Test {
      * @param args i argomenti passati al programma attraverso i commandi di linea
      */
     public static void main(String[] args) {
-        Campionato campionato = new Campionato("D:\\Yang\\LezioniJava\\Campionato\\league2020.csv");
+        Campionato campionato = new Campionato();
 
         int op = -1;
         while (op != 0) {
