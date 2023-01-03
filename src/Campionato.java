@@ -37,6 +37,10 @@ public class Campionato {
         this("Premier League", "2020", ".\\league2020.csv");
     }
 
+    public Campionato(String path) {
+        this("Premier League", "2020", path);
+    }
+
     /**
      * costruttore con parametri
      *
@@ -52,10 +56,10 @@ public class Campionato {
      *
      * @param serie    la serie del campionato
      * @param stagione la stagione del campionato
-     * @param filename il percorso del file.csv
+     * @param path il percorso del file.csv
      */
-    public Campionato(String serie, String stagione, String filename) {
-        this.PATH = filename;
+    public Campionato(String serie, String stagione, String path) {
+        this.PATH = path;
         this.serie = serie;
         this.stagione = stagione;
         this.partite_giornate = new HashMap<>();
